@@ -9,7 +9,7 @@
       <!-- Font Awsome Icon -->
       <script src="https://kit.fontawesome.com/faf7172676.js" crossorigin="anonymous"></script>
 
-    <title>semiprojectv2</title>
+    <title>회원가입-정보입력</title>
     </head>
   <body>
     <div class="container">
@@ -18,14 +18,14 @@
             <div class="col text-right">
                 <h1><button type="button"
                             class="btn btn-danger" data-toggle="modal" data-target="#loginfrm">로그인</button>
-                <button type="button"
-                        class="btn btn-primary">회원가입</button></h1></div>
+               <!-- <button type="button"
+                        class="btn btn-primary">회원가입</button> --></h1></div>
         </header>
 
         <nav class="navbar navbar-expand navbar-dark bg-dark">
             <ul class="navbar-nav nav-fill w-100">
                 <li class="nav-item"><a href="#" class="nav-link">프로젝트소개</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">회원가입</a></li>
+                <li class="nav-item active"><a href="#" class="nav-link">회원가입</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">게시판</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">자료실</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">갤러리</a></li>
@@ -33,9 +33,45 @@
             </ul>
         </nav>
 
-        <div class="col"><i class="fas fa-user row" style="font-size: 3rem;">회원가입완료</i>
+        <div id="main">
+            <div>
+                <i class="fas fa-users fa-2x"> 회원가입 </i>
+                <hr>
+            </div><!-- 페이지 타이틀 -->
+
+            <nav>
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item active">
+                        <button type="button" disabled
+                                class="btn btn-success">
+                            이용약관</button>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <button type="button" disabled
+                                class="btn btn-success">
+                            실명확인</button>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <button type="button" disabled
+                                class="btn btn-success">
+                            정보입력</button>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <button type="button" disabled
+                                class="btn btn-success">
+                            가입완료</button>
+                    </li>
+                </ul>
+            </nav><!-- 브레드크럼 -->
+
+            <div>
+            <h2>회원가입 완료</h2>
+            <small class="text-muted">
+               안전하고 편리한 홈페이지 이용을 위해 회원님의 아이디와
+               비밀번호 관리에 주의해 주시기 바랍니다.
+            </small>
             <hr>
-        </div>
+            </div><!-- 섹션 타이틀 -->
 
 <div class="jumbotron bg-info text-white col-10 offset-1">
         <h1>화원가입을 축하합니다!!</h1>
@@ -51,8 +87,9 @@
             <button type="button" id="go2index" class="btn btn-success">
             <i class="fas fa-home"></i>메인으로 이동</button>
         </div>
+        </div>
 
-        <footer class="row">
+        <footer>
             <h6 class="col bg-light text-right rounded">
                 Copyright &copy; Lorem Ipsum 2020.
                 All right Reserved. Created by Bootstrap4.</h6>
@@ -103,6 +140,8 @@
             </div>
           </div>
       </div>
+
+
 
 
 
